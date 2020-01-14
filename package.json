@@ -1,7 +1,7 @@
 {
-  "name": "iono",
+  "name": "roadtripRecovery",
   "version": "1.0.0",
-  "description": "ionoNPM",
+  "description": "Roadtrip Recovery Website",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --colors",
@@ -15,25 +15,38 @@
   "author": "ATDL",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amtrav42/iono/issues"
+    "url": "https://github.com/amtrav42/roadtripRecovery/issues"
   },
-  "homepage": "https://github.com/amtrav42/iono#readme",
+  "homepage": "https://github.com/amtrav42/roadtripRecovery#readme",
   "devDependencies": {
     "@babel/core": "7.6.0",
     "@babel/preset-env": "7.6.0",
     "@babel/preset-react": "7.0.0",
+    "babel-eslint": "10.0.3",
     "babel-loader": "8.0.6",
+    "babel-plugin-styled-components": "1.10.6",
     "css-loader": "3.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-loader": "3.0.3",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "eslint-plugin-styled-components-config": "0.0.2",
+    "fibers": "4.0.2",
     "html-webpack-plugin": "3.2.0",
     "mini-css-extract-plugin": "0.8.0",
     "node-sass": "4.12.0",
+    "sass": "1.24.4",
     "sass-loader": "8.0.0",
     "webpack": "4.39.3",
     "webpack-cli": "3.3.8",
     "webpack-dev-server": "3.8.0"
   },
   "dependencies": {
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "styled-components": "5.0.0"
   }
 }
