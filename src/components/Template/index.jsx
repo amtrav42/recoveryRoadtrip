@@ -1,9 +1,15 @@
 import React from 'react';
-import Main from 'components/Main';
+import Header from 'components/Header';
+import Footer from 'components/Footer';
 
 // Declare a class called Template, it's a prototype of the base react component//
 const Template = () => {
-  return <Main />;
+  return (
+    <div>
+      <Header />
+      <Footer />
+    </div>
+  );
 };
 
 export default Template;
