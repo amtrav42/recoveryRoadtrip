@@ -5,6 +5,6 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
   padding: 2em;
-  background-color: grey;
+  background-color: pink;
   box-sizing: border-box;
 `;

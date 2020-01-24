@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from 'components/Nav';
 import * as styles from './styles.js';
 
 const {
@@ -10,6 +11,7 @@ const Header = () => {
   return (
     <Container>
       <h1>Recovery Roadtrip</h1>
+      <Nav />
     </Container>
   );
 };
