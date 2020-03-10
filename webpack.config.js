@@ -9,7 +9,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const MiniCssExtractPluginConfig = new MiniCssExtractPlugin({
   filename: '[name].css',
   chunkFilename: '[id].css',
-})
+});
 
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: `${APP_DIR}/index.html`,
@@ -45,10 +45,18 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
           },
-          //translates css into Common JS//
+          // translates css into Common JS//
           'css-loader',
-          //compiles sass into css//
+          // compiles sass into css//
           'sass-loader',
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
         ],
       },
     ],

@@ -9,7 +9,7 @@ const {
 const Button = () => {
   return (
     <Container>
-      <h3>I am a button</h3>
+      <h3>Download your map</h3>
     </Container>
   );
 };

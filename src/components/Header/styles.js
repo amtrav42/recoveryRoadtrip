@@ -8,3 +8,8 @@ export const Container = styled.div`
   background-color: pink;
   box-sizing: border-box;
 `;
+
+export const Logo = styled.img`
+  margin: 0.5em 1.5em;
+  height: 50px;
+`;
