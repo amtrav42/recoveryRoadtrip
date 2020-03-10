@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from 'components/Nav';
-import logo from 'assets/images/logo.jpg';
+import logo from 'assets/images/logo.jpeg';
 import * as styles from './styles.js';
 
 const {
